@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  --zomato-red: #e23744;
+  --zomato-red-dark: #cb202d;
+  --zomato-red-light: #ff6b6b;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
