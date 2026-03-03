@@ -35,7 +35,7 @@ A modern, responsive React frontend for the Zomato AI Restaurant Recommendation 
 ## Project Structure
 
 ```
-frontend/
+zomato-recommendation-frontend/
 ├── public/
 │   └── vite.svg
 ├── src/
@@ -61,20 +61,26 @@ frontend/
 ## Prerequisites
 
 - **Node.js** >= 20.19 (recommended) or >= 22.12
-- **Backend** running on `http://localhost:8000` (see the [backend README](../backend/README.md))
+- **Backend** running on `http://localhost:8000` (see the [backend repo](https://github.com/YOUR_USERNAME/zomato-recommendation-backend))
 
 ---
 
 ## Getting Started
 
-### 1. Install dependencies
+### 1. Clone the repository
 
 ```bash
-cd frontend
+git clone https://github.com/YOUR_USERNAME/zomato-recommendation-frontend.git
+cd zomato-recommendation-frontend
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
 ```
 
-### 2. Start the dev server
+### 3. Start the dev server
 
 ```bash
 npm run dev
@@ -84,7 +90,7 @@ The app will be available at **http://localhost:5173**.
 
 > The Vite dev server proxies all `/api/*` requests to `http://localhost:8000`, so make sure the FastAPI backend is running first.
 
-### 3. Build for production
+### 4. Build for production
 
 ```bash
 npm run build
@@ -92,7 +98,7 @@ npm run build
 
 The optimized output will be in the `dist/` folder, ready for static hosting.
 
-### 4. Preview the production build
+### 5. Preview the production build
 
 ```bash
 npm run preview
@@ -169,6 +175,12 @@ server: {
 ```
 
 To point to a different backend URL, update the `target` value.
+
+---
+
+## Related Repository
+
+- **Backend**: [zomato-recommendation-backend](https://github.com/YOUR_USERNAME/zomato-recommendation-backend) — FastAPI + Gemini AI + Hugging Face Zomato dataset
 
 ---
 
