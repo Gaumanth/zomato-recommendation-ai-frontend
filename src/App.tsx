@@ -52,7 +52,7 @@ function App() {
           {error}
         </div>
       )}
-      <PreferencesPage onSubmit={handleSubmit} loading={view === "loading"} />
+      <PreferencesPage onSubmit={handleSubmit} loading={false} />
     </>
   );
 }
